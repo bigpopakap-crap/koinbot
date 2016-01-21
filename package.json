@@ -2,6 +2,10 @@
   "name": "koinbot",
   "version": "1.0.0",
   "description": "Give koins to other people",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigpopakap/koinbot.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.x.x",
-    "body-parser": "^1.x.x",
-    "botkit": "0.0.5"
+    "body-parser": "^1.x.x"
   }
 }
